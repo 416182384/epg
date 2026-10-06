@@ -24,6 +24,9 @@ jobs:
           - url: http://epg.51zmt.top:8000/e.xml
             branch: 51zmt
             sleep: 60s
+          - url: https://epg.136605.xyz/9days.xml.gz
+            branch: epg.136605.xyz
+            sleep: 90s
 
     steps:
       - name: download files
